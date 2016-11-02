@@ -7,11 +7,13 @@ def fizzbuzz(number):
     elif x % 5 == 0:
         x = "Buzz"
     else:
-        print(x)
+        x
     return x
 
 def main():
-    return True
+    for x in range(1,101):
+        fizzbuzz(x)
+    return x
 
 if __name__ == '__main__':
     main()
